@@ -16,7 +16,7 @@ class ExampleSimple extends HTMLElement {
   /**
    * Define the template to be (re)rendered with this component.
    * It will be rerendered if any top-level property of `this.state` changes.
-   * @returns {string} - must be HTML as a string.
+   * @returns {string} Must be HTML as a string.
    */
   get template(){ return /* html */`
     <h2>Hello World 👋!</h2>
@@ -26,7 +26,7 @@ class ExampleSimple extends HTMLElement {
 
 
 
-  // --- Boilerplate Private Methods ---
+  // --- Boilerplate  ---
   _render(){
     this.innerHTML = this.template
   }
